@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTracker" */;
+			buildConfigurationList = CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTrackerApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -402,7 +402,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.FoodTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.stefan-moldoveanu.FoodTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -436,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.FoodTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.stefan-moldoveanu.FoodTracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTracker" */ = {
+		CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE75F2112C8B1462001AD0A3 /* Debug */,

@@ -18,7 +18,7 @@
                BlueprintIdentifier = "CE75F2042C8B1460001AD0A3"
                BuildableName = "FoodTracker.app"
                BlueprintName = "FoodTracker"
-               ReferencedContainer = "container:FoodTracker.xcodeproj">
+               ReferencedContainer = "container:FoodTrackerApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "CE75F2042C8B1460001AD0A3"
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
-            ReferencedContainer = "container:FoodTracker.xcodeproj">
+            ReferencedContainer = "container:FoodTrackerApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "CE75F2042C8B1460001AD0A3"
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
-            ReferencedContainer = "container:FoodTracker.xcodeproj">
+            ReferencedContainer = "container:FoodTrackerApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
