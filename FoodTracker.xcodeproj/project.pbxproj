@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0008426F2D3A9D8C005874A0 /* AddWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008426E2D3A9D8C005874A0 /* AddWaterView.swift */; };
+		005463F62D3940C000102159 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005463F52D3940C000102159 /* DashboardView.swift */; };
+		005463FA2D39460200102159 /* DailyIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005463F92D3945FB00102159 /* DailyIntake.swift */; };
+		005463FC2D3A53B600102159 /* DashboardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005463FB2D3A53B600102159 /* DashboardDetails.swift */; };
+		005463FF2D3A6BEF00102159 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005463FE2D3A6BEF00102159 /* WaterView.swift */; };
+		005464012D3A724900102159 /* WaterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005464002D3A724900102159 /* WaterDetailView.swift */; };
+		005464032D3A72A900102159 /* WaterEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005464022D3A72A900102159 /* WaterEntryView.swift */; };
+		0058D59F2D353E6900EE5049 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D59E2D353E6500EE5049 /* Entry.swift */; };
+		0058D5A22D35418300EE5049 /* EntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5A12D35418300EE5049 /* EntryListView.swift */; };
+		0058D5A42D3542EC00EE5049 /* EntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5A32D3542E600EE5049 /* EntryType.swift */; };
+		0058D5C82D354EC900EE5049 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5C72D354EC900EE5049 /* EntryView.swift */; };
+		0058D5CC2D355ABF00EE5049 /* NoEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5CB2D355ABE00EE5049 /* NoEntryView.swift */; };
+		0058D5D92D36987500EE5049 /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5D82D36987500EE5049 /* AddEntryView.swift */; };
+		0058D5DE2D37E46900EE5049 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5DD2D37E46500EE5049 /* TabItem.swift */; };
+		0058D5E02D37E6B800EE5049 /* TabHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058D5DF2D37E6B800EE5049 /* TabHost.swift */; };
+		005D58122D3A7C8C00A82979 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005D58112D3A7C8100A82979 /* MockData.swift */; };
+		005D58142D3A8A4200A82979 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005D58132D3A8A3A00A82979 /* Water.swift */; };
+		007B339E2D3DB33B00437569 /* DailyTargetEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B339D2D3DB33B00437569 /* DailyTargetEdit.swift */; };
+		007B33A02D3DB7A000437569 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B339F2D3DB7A000437569 /* SettingsView.swift */; };
+		007B33A22D3DB90D00437569 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B33A12D3DB90A00437569 /* User.swift */; };
+		007B33A52D3DBC2800437569 /* DailyTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B33A42D3DBC2800437569 /* DailyTargetView.swift */; };
+		0087CDCA2D3DE270002D12C2 /* DashboardDetailsProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087CDC92D3DE270002D12C2 /* DashboardDetailsProgress.swift */; };
+		CE75F2092C8B1460001AD0A3 /* FoodTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F2082C8B1460001AD0A3 /* FoodTrackerApp.swift */; };
+		CE75F20D2C8B1462001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F20C2C8B1462001AD0A3 /* Assets.xcassets */; };
+		CE75F2102C8B1462001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F20F2C8B1462001AD0A3 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0008426E2D3A9D8C005874A0 /* AddWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterView.swift; sourceTree = "<group>"; };
+		005463F52D3940C000102159 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		005463F92D3945FB00102159 /* DailyIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntake.swift; sourceTree = "<group>"; };
+		005463FB2D3A53B600102159 /* DashboardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetails.swift; sourceTree = "<group>"; };
+		005463FE2D3A6BEF00102159 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		005464002D3A724900102159 /* WaterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDetailView.swift; sourceTree = "<group>"; };
+		005464022D3A72A900102159 /* WaterEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEntryView.swift; sourceTree = "<group>"; };
+		0058D59E2D353E6500EE5049 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		0058D5A12D35418300EE5049 /* EntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListView.swift; sourceTree = "<group>"; };
+		0058D5A32D3542E600EE5049 /* EntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryType.swift; sourceTree = "<group>"; };
+		0058D5C72D354EC900EE5049 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		0058D5CB2D355ABE00EE5049 /* NoEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoEntryView.swift; sourceTree = "<group>"; };
+		0058D5D82D36987500EE5049 /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		0058D5DD2D37E46500EE5049 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		0058D5DF2D37E6B800EE5049 /* TabHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHost.swift; sourceTree = "<group>"; };
+		005D58112D3A7C8100A82979 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		005D58132D3A8A3A00A82979 /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
+		007B339D2D3DB33B00437569 /* DailyTargetEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTargetEdit.swift; sourceTree = "<group>"; };
+		007B339F2D3DB7A000437569 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		007B33A12D3DB90A00437569 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		007B33A42D3DBC2800437569 /* DailyTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTargetView.swift; sourceTree = "<group>"; };
+		0087CDC92D3DE270002D12C2 /* DashboardDetailsProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetailsProgress.swift; sourceTree = "<group>"; };
+		CE75F2052C8B1460001AD0A3 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE75F2082C8B1460001AD0A3 /* FoodTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerApp.swift; sourceTree = "<group>"; };
+		CE75F20C2C8B1462001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE75F20F2C8B1462001AD0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0058D5D12D36875500EE5049 /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE75F2022C8B1460001AD0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005463FD2D3A6BA600102159 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0058D5C72D354EC900EE5049 /* EntryView.swift */,
+				005463FB2D3A53B600102159 /* DashboardDetails.swift */,
+				0058D5CB2D355ABE00EE5049 /* NoEntryView.swift */,
+				0058D5D82D36987500EE5049 /* AddEntryView.swift */,
+				005464002D3A724900102159 /* WaterDetailView.swift */,
+				005464022D3A72A900102159 /* WaterEntryView.swift */,
+				0008426E2D3A9D8C005874A0 /* AddWaterView.swift */,
+				007B339D2D3DB33B00437569 /* DailyTargetEdit.swift */,
+				007B33A42D3DBC2800437569 /* DailyTargetView.swift */,
+				0087CDC92D3DE270002D12C2 /* DashboardDetailsProgress.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0058D59D2D353E4900EE5049 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				007B33A12D3DB90A00437569 /* User.swift */,
+				005D58132D3A8A3A00A82979 /* Water.swift */,
+				005463F92D3945FB00102159 /* DailyIntake.swift */,
+				0058D5DD2D37E46500EE5049 /* TabItem.swift */,
+				0058D5A32D3542E600EE5049 /* EntryType.swift */,
+				0058D59E2D353E6500EE5049 /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0058D5A02D35416900EE5049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				005463FD2D3A6BA600102159 /* Subviews */,
+				0058D5A12D35418300EE5049 /* EntryListView.swift */,
+				0058D5DF2D37E6B800EE5049 /* TabHost.swift */,
+				005463F52D3940C000102159 /* DashboardView.swift */,
+				005463FE2D3A6BEF00102159 /* WaterView.swift */,
+				007B339F2D3DB7A000437569 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE75F1FC2C8B1460001AD0A3 = {
+			isa = PBXGroup;
+			children = (
+				CE75F2072C8B1460001AD0A3 /* FoodTracker */,
+				CE75F2062C8B1460001AD0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE75F2062C8B1460001AD0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE75F2052C8B1460001AD0A3 /* FoodTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE75F2072C8B1460001AD0A3 /* FoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				0058D5D12D36875500EE5049 /* Helpers */,
+				0058D5A02D35416900EE5049 /* Views */,
+				0058D59D2D353E4900EE5049 /* Models */,
+				CE75F2082C8B1460001AD0A3 /* FoodTrackerApp.swift */,
+				CE75F20C2C8B1462001AD0A3 /* Assets.xcassets */,
+				CE75F20E2C8B1462001AD0A3 /* Preview Content */,
+			);
+			path = FoodTracker;
+			sourceTree = "<group>";
+		};
+		CE75F20E2C8B1462001AD0A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				005D58112D3A7C8100A82979 /* MockData.swift */,
+				CE75F20F2C8B1462001AD0A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE75F2042C8B1460001AD0A3 /* FoodTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE75F2132C8B1462001AD0A3 /* Build configuration list for PBXNativeTarget "FoodTracker" */;
+			buildPhases = (
+				CE75F2012C8B1460001AD0A3 /* Sources */,
+				CE75F2022C8B1460001AD0A3 /* Frameworks */,
+				CE75F2032C8B1460001AD0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0058D5D12D36875500EE5049 /* Helpers */,
+			);
+			name = FoodTracker;
+			productName = FoodTracker;
+			productReference = CE75F2052C8B1460001AD0A3 /* FoodTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE75F1FD2C8B1460001AD0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE75F2042C8B1460001AD0A3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE75F1FC2C8B1460001AD0A3;
+			productRefGroup = CE75F2062C8B1460001AD0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE75F2042C8B1460001AD0A3 /* FoodTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE75F2032C8B1460001AD0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE75F2102C8B1462001AD0A3 /* Preview Assets.xcassets in Resources */,
+				CE75F20D2C8B1462001AD0A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE75F2012C8B1460001AD0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007B339E2D3DB33B00437569 /* DailyTargetEdit.swift in Sources */,
+				0058D5CC2D355ABF00EE5049 /* NoEntryView.swift in Sources */,
+				005464012D3A724900102159 /* WaterDetailView.swift in Sources */,
+				005463FA2D39460200102159 /* DailyIntake.swift in Sources */,
+				005463F62D3940C000102159 /* DashboardView.swift in Sources */,
+				007B33A52D3DBC2800437569 /* DailyTargetView.swift in Sources */,
+				005463FF2D3A6BEF00102159 /* WaterView.swift in Sources */,
+				0058D59F2D353E6900EE5049 /* Entry.swift in Sources */,
+				0008426F2D3A9D8C005874A0 /* AddWaterView.swift in Sources */,
+				0087CDCA2D3DE270002D12C2 /* DashboardDetailsProgress.swift in Sources */,
+				CE75F2092C8B1460001AD0A3 /* FoodTrackerApp.swift in Sources */,
+				005463FC2D3A53B600102159 /* DashboardDetails.swift in Sources */,
+				0058D5A22D35418300EE5049 /* EntryListView.swift in Sources */,
+				005D58142D3A8A4200A82979 /* Water.swift in Sources */,
+				0058D5D92D36987500EE5049 /* AddEntryView.swift in Sources */,
+				0058D5E02D37E6B800EE5049 /* TabHost.swift in Sources */,
+				005D58122D3A7C8C00A82979 /* MockData.swift in Sources */,
+				0058D5A42D3542EC00EE5049 /* EntryType.swift in Sources */,
+				0058D5DE2D37E46900EE5049 /* TabItem.swift in Sources */,
+				005464032D3A72A900102159 /* WaterEntryView.swift in Sources */,
+				0058D5C82D354EC900EE5049 /* EntryView.swift in Sources */,
+				007B33A02D3DB7A000437569 /* SettingsView.swift in Sources */,
+				007B33A22D3DB90D00437569 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE75F2112C8B1462001AD0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE75F2122C8B1462001AD0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE75F2142C8B1462001AD0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FKJ7Z4WHZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.FoodTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE75F2152C8B1462001AD0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FKJ7Z4WHZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.FoodTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE75F2002C8B1460001AD0A3 /* Build configuration list for PBXProject "FoodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75F2112C8B1462001AD0A3 /* Debug */,
+				CE75F2122C8B1462001AD0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE75F2132C8B1462001AD0A3 /* Build configuration list for PBXNativeTarget "FoodTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75F2142C8B1462001AD0A3 /* Debug */,
+				CE75F2152C8B1462001AD0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE75F1FD2C8B1460001AD0A3 /* Project object */;
+}
